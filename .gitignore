@@ -1,0 +1,10 @@
+shellRanker.php
+.taintanalysis-output.ta
+*.pyc
+output.txt
+*.output.txt
+.DS_Store
+*.icloud
+.idea/
+*.old
+lib/.test/*

