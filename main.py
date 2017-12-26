@@ -99,7 +99,7 @@ def check_php_lib():
         print e
         return False
 
-    if "PHP 5." in stdout[:10]:
+    if "PHP " in stdout[:10]:
         return True
     else:
         return False
@@ -321,8 +321,12 @@ if __name__ == '__main__':
                         mtime_list[mtime] = 1
 
                 if not options.dispm:
-                    with open(filename, 'rb') as f:
-                        filecontent = f.read()
+                    try:
+                        with open(filename, 'rb') as f:
+                            filecontent = f.read()
+                    except Exception, e:
+                        print "can't open", filename, e
+                        continue
 
                     if len(filecontent) == 0:
                         continue
