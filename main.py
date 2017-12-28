@@ -260,8 +260,9 @@ if __name__ == '__main__':
     options, args, QUITEMODE = gateway()
     projectid = None            # Disabled
 
-    print "PATTERNDB:", options.patterndb
-    rules = yara.compile(options.patterndb)
+    if not options.dispm:
+        print "PATTERNDB:", options.patterndb
+        rules = yara.compile(options.patterndb)
 
     file_count = 0
 
