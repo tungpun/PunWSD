@@ -174,6 +174,7 @@
 		'proc_open'						=> array(array(1), $F_SECURING_SYSTEM),
 		'shell_exec'					=> array(array(1), $F_SECURING_SYSTEM),
 		'system'						=> array(array(1), $F_SECURING_SYSTEM),
+		'get_defined_functions'			=> array(array(1), $F_SECURING_SYSTEM),
 		'mail'							=> array(array(5), array()), // http://esec-pentest.sogeti.com/web/using-mail-remote-code-execution
 		'mb_send_mail'					=> array(array(5), array()),
 		'w32api_invoke_function'		=> array(array(1), array()),

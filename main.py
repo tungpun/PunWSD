@@ -260,7 +260,7 @@ if __name__ == '__main__':
     options, args, QUITEMODE = gateway()
     projectid = None            # Disabled
 
-    if not options.dispm:
+    if not options.dispm:           # if Pattern Matching module has been enabled...
         print "PATTERNDB:", options.patterndb
         rules = yara.compile(options.patterndb)
 
@@ -269,6 +269,7 @@ if __name__ == '__main__':
     if options.filename:
         """
             For a single file
+            Only perform pattern matching, Taint Analysis module is unavailable
         """
 
         filename = options.filename
