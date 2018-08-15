@@ -1,13 +1,3 @@
-rule GuruWS_adware_regex
-{
-    strings:                              
-        $ = /var [\_0x\d(a-f)(A-F)]* = \[["']([\\\x\d(A-F)(a-f)]*)["']/i
-        $ = /document\[[\_0x\d(a-f)(A-F)\[\]]*\]\([\_0x\d(a-f)(A-F)\[\]]*\)/i
-
-    condition:
-        any of them
-}
-
 rule GuruWS_adware_strings
 {
     strings:                              

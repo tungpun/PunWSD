@@ -15,7 +15,7 @@ Pun Web Shell Detector
 
 ## Usage:
 ```
-$ python main.py                                 
+$ python2 main.py                                 
 Usage: main.py [options]
 
 Options:
@@ -31,7 +31,7 @@ Options:
                         default value: config/final.yara
   -q, --quite           enable quite mode
 
-$ python main.py -d ../../userFiles/5fd8f263781c4b6dbfb6f14878be34bc3fb7c0df/
+$ python2 main.py -d ../../userFiles/5fd8f263781c4b6dbfb6f14878be34bc3fb7c0df/
 [+] Scanning...  /5fd8f263781c4b6dbfb6f14878be34bc3fb7c0df//shell.php
 [+] Found...   SHELL_SHELLDETECT_spam_2__0__php   in (/5fd8f263781c4b6dbfb6f14878be34bc3fb7c0df//shell.php)
 [+] Analized  : 1 files 
@@ -45,7 +45,7 @@ $ python main.py -d ../../userFiles/5fd8f263781c4b6dbfb6f14878be34bc3fb7c0df/
 
 ```
 $ cd lib/
-$ python pm_patterns_export.py -d ../data/all/ -o ../config/final.yara
+$ python2 pm_patterns_export.py -d ../data/all/ -o ../config/final.yara
 ```
 
 Then, the created signature has been stored at `config/final.yara`.

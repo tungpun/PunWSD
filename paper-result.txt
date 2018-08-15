@@ -1,0 +1,55 @@
+
+[ -----  0  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 212 issues
+[+] Number of detected files:   : 187 files
+[+] Saved results to:   output.txt
+
+
+[ -----  1  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 218 issues
+[+] Number of detected files:   : 182 files
+[+] Saved results to:   output.txt
+
+[ -----  2  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 216 issues
+[+] Number of detected files:   : 180 files
+[+] Saved results to:   output.txt
+
+[ -----  3  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 223 issues
+[+] Number of detected files:   : 185 files
+[+] Saved results to:   output.txt
+
+[ -----  4  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 215 issues
+[+] Number of detected files:   : 183 files
+[+] Saved results to:   output.txt
+
+[ -----  5  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 215 issues
+[+] Number of detected files:   : 180 files
+[+] Saved results to:   output.txt
+
+[ -----  6  ----- ]
+[+] Analized    : 212 files
+[+] Found   : 221 issues
+[+] Number of detected files:   : 183 files
+[+] Saved results to:   output.txt
+
+[ -----  7  ----- ]
+[+] Analized    : 211 files
+[+] Found   : 214 issues
+[+] Number of detected files:   : 177 files
+[+] Saved results to:   output.txt
+
+[ -----  8  ----- ]
+[+] Analized    : 211 files
+[+] Found   : 225 issues
+[+] Number of detected files:   : 187 files
+[+] Saved results to:   output.txt

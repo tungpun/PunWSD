@@ -229,19 +229,31 @@ def load_mtime_analysis_result(projectid):
     pass
 
 
+def count_unique_files(_shells):
+    saved = []
+    result = 0
+    for shell in _shells:
+        filename = shell["filename"]
+        if filename not in saved:
+            saved.append(filename)
+            result += 1
+    return result
+
+
 def show_result(file_count):
     shell_count = len(_shells)
     print green("\n\n[ -----  Reports  ----- ]")
     print yellow("[+] Analized\t: " + str(file_count) + " files ")
     if shell_count != 0:
-        print yellow("[+] Found\t: " + str(shell_count) + " issues ")
+        print yellow("[+] Found\t: {} issues ".format(shell_count))
+        print yellow("[+] Number of detected files: \t: {} files ".format(count_unique_files(_shells)))
     else:
         print yellow("[+] Great ! Nothing found, or something went wrong :)")
-    
+    """
     for shell in _shells:
         print shell
         print cyan("[+] Found...\t" + shell['shellname'] + " " + "\tin (" + shell['filename'] + ")")   
-
+    """
 
 def is_whitelist(filename):
     if '/.git/' in filename:
@@ -356,7 +368,7 @@ if __name__ == '__main__':
             load_mtime_analysis_result(projectid)
 
         show_result(file_count)
-
+        
         if options.outfile:
             export_to_outfile(options.outfile)     # just export when scan directory
 
