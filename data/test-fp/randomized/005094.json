@@ -1,6 +1,0 @@
-{
-    "require": {
-        "christian-riesen/otp": "*",
-        "christian-riesen/base32": "*"
-    }
-}
